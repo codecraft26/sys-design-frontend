@@ -5,6 +5,7 @@ import withDimension from '../hoc/WithDimension'
 const Comp1 = (props,ref) => {
   return (
     <div ref={ref}>{
+      props.width
 
         
     }</div>
